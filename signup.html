@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header id="header-auth">
+            <h1><span class="dish">Dish</span><span class="covery">covery</span></h1>
+        </header>
+        <main id="main-center">
+            
+            <form class="auth-form" action="login.html">
+                <h2 class="login-head">Sign up</h2>
+                <div class="form-input-grid">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" />
+                    
+                    <label for="sname">Screen Name:</label>
+                    <input type="text" id="sname" name="sname" />
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" />
+                    
+                    <label for="cpassword">Confirm Password:</label>
+                    <input type="password" id="cpassword" name="cpassword" />
+                    
+                    <label for="profilephoto">Profile Picture</label>
+                    <input type="file" id="profilephoto" name="profilephoto" accept="image/png, image/jpeg, image/gif" />
+                </div>
+                <div class="align-right">
+                    <input type="submit" value="Sign Up" />
+                </div>
+                <div class="form-note">
+                <p>Already have an account? <a href="login.html">Login.</a></p>
+            </div>
+            </form>
+            
+        </main>
+        <footer id="footer-auth">
+            <p class="footer-text">CS 215: Assignment 3</p>
+        </footer>
+    </div>
+</body>
+</html>
